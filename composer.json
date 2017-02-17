@@ -1,5 +1,5 @@
 {
-    "name": "repost1/birthdaypicker",
+    "name": "repost1/yii2-birthday-picker",
     "description": "A Yii2 widget extension that allows you to easily create birthday form field",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"," widget"," birthday","date","picker"],
