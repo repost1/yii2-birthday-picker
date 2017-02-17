@@ -1,7 +1,7 @@
 <?php
 
 
-namespace nsept\birthdaypicker;
+namespace repost1\birthdaypicker;
 
 use Yii;
 use yii\validators\Validator;

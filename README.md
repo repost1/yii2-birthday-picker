@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist nsept/yii2-birthday-picker "*"
+composer require --prefer-dist repost1/birthdaypicker "*"
 ```
 
 or add
 
 ```
-"nsept/yii2-birthday-picker": "*"
+"repost1/birthdaypicker": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -35,12 +35,12 @@ public function rules()
 {
     return [
         ['birthday', 'required'],
-        ['birthday', \nsept\birthdaypicker\BirthdayValidator::className()],
+        ['birthday', \repost1\birthdaypicker\BirthdayValidator::className()],
     ];
 }
 
 // view
-<?= \nsept\birthdaypicker\BirthdayPickerWidget::widget([
+<?= \repost1\birthdaypicker\BirthdayPickerWidget::widget([
     'form'      => $form,
     'model'     => $model,
     'attribute' => 'birthday'

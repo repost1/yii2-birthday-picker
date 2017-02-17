@@ -1,12 +1,12 @@
 <?php
 
-namespace nsept\birthdaypicker;
+namespace repost1\birthdaypicker;
 
 use yii\web\AssetBundle;
 
 class BirthdayPickerAsset extends AssetBundle
 {
-    public $sourcePath = '@nsept/birthdaypicker/assets/';
+    public $sourcePath = '@repost1/birthdaypicker/assets/';
 
     public $js = [
         'jquery.birthdaypicker.min.js'

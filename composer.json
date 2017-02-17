@@ -1,5 +1,5 @@
 {
-    "name": "nsept/yii2-birthday-picker",
+    "name": "repost1/birthdaypicker",
     "description": "A Yii2 widget extension that allows you to easily create birthday form field",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"," widget"," birthday","date","picker"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nsept\\birthdaypicker\\": ""
+            "repost1\\birthdaypicker\\": ""
         }
     }
 }
